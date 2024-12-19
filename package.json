@@ -6,8 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "git-add": "git add .",
-    "git-commit": "git commit -m 'Your commit message'"
+    "git-commit": "git commit -m 'Your commit message'",
+    "dev" : "nodemon src/index.js"
   },
+  "type": "module",
   "keywords": [
     "javascript",
     "express",
@@ -15,8 +17,7 @@
   ],
   "author": "Nikhil Singh",
   "license": "ISC",
-  "dependencies": {
-    
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
-  
 }
